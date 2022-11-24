@@ -8,6 +8,9 @@ public class Constructor {
         ApplicationContext context = new ClassPathXmlApplicationContext("constructorconfig.xml");
 
        Person person = (Person) context.getBean("person");
-        System.out.println(person);
+       System.out.println(person);
+
+        Addition addition = (Addition) context.getBean("addition");
+        addition.doSum();
     }
 }
