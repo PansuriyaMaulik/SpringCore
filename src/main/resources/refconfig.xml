@@ -20,7 +20,10 @@
     </bean>
      -->
 
-    <!-- Inject using without using property tag -->
+    <!-- Inject using without using property tag
     <bean class="com.reference.A" name="aref" />
+    -->
 
+    <!-- Using P schema -->
+    <bean class="com.reference.A" name="aref" p:x="50" p:obj-ref="bref" />
 </beans>
