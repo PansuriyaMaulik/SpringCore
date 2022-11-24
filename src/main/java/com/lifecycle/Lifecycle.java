@@ -12,5 +12,9 @@ public class Lifecycle {
 
         // Registering shutdown hook
         context.registerShutdownHook();
+
+        System.out.println("__________Now using Interface__________");
+        Student student = (Student) context.getBean("student");
+        System.out.println(student);
     }
 }
