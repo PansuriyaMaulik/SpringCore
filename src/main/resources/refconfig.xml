@@ -10,11 +10,17 @@
         <property name="y" value="90"></property>
     </bean>
 
+    <!--
+     // Inject using ref object in property tag
     <bean class="com.reference.A" name="aref">
         <property name="x" value="80"></property>
         <property name="obj">
             <ref bean="bref"></ref>
         </property>
     </bean>
+     -->
+
+    <!-- Inject using without using property tag -->
+    <bean class="com.reference.A" name="aref" />
 
 </beans>
