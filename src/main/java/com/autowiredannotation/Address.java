@@ -1,4 +1,4 @@
-package com.autowire;
+package com.autowiredannotation;
 
 public class Address {
     private String street;
