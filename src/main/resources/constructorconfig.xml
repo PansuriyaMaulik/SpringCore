@@ -6,7 +6,7 @@
        xmlns:c="http://www.springframework.org/schema/c"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean class="com.constructor.Certi" name="certi" c:name="Python">
+    <bean class="com.constructor.Certi" name="certi" c:name="Android">
     </bean>
 
     <bean class="com.constructor.Person" name="person">
