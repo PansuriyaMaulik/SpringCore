@@ -8,5 +8,6 @@ public class Stereotype {
         ApplicationContext context = new ClassPathXmlApplicationContext("stereotypeconfig.xml");
         Student student = context.getBean("student1", Student.class);
         System.out.println(student);
+        System.out.println(student.getAddress());
     }
 }
