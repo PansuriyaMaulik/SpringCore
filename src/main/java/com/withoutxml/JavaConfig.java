@@ -15,7 +15,7 @@ public class JavaConfig {
         return new Teacher("Java");
     }
 
-    @Bean
+    @Bean(name = {"student", "student2"})
     public Student getStudent() {
         //creating new student object
         Student student = new Student(getTeacher());
