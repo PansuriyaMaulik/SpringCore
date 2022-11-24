@@ -9,4 +9,8 @@
     <bean class="com.lifecycle.Employee" name="employee" init-method="init" destroy-method="destroy">
         <property name="salary" value="10000" />
     </bean>
+
+    <bean class="com.lifecycle.Student" name="student">
+        <property name="rollNo" value="1" />
+     </bean>
 </beans>
